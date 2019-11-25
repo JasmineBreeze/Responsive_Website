@@ -3,6 +3,18 @@ body {
 
 }
 
+p {
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+
+@media only screen and (min-width: 600px) {
+    p {
+        margin-left: 25%;
+        margin-right: 25%;
+    }
+}
 
 @media only screen and (max-width: 1100Px) {
     body {
@@ -26,5 +38,4 @@ body {
         body {
             background-color: rgb(125, 50, 160);
         }
-    }
-  
+    
